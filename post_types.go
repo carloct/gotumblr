@@ -11,8 +11,9 @@ type AltSize struct {
 }
 
 type PhotoObject struct {
-	Caption   string
-	Alt_sizes []AltSize
+	Caption       string
+	Alt_sizes     []AltSize
+	Original_size AltSize
 }
 
 type PhotoPost struct {
